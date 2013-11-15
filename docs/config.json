@@ -1,17 +1,14 @@
 {
-	"title": "DAUX.IO",
-	"tagline": "The Easiest Way To Document Your Project",
+	"title": "Documentations",
+	"tagline": "Faculté de droit 2013",
 	"docs_path": "docs",
 	"image": "img/app.png",
-	"theme": "navy",
+	"theme": "red",
 	"date_modified": true,
-	"repo": "justinwalsh/daux.io",
-	"twitter": ["justin_walsh", "todaymade"],
-	"google_analytics": "UA-12653604-10",
+	"repo": "",
+	"twitter": [""],
+	"google_analytics": "",
 	"links": {
-		"Download": "https://github.com/justinwalsh/daux.io/archive/master.zip",
-		"GitHub Repo": "https://github.com/justinwalsh/daux.io",
-		"Help/Support/Bugs": "https://github.com/justinwalsh/daux.io/issues",
-		"Made by Todaymade": "http://todaymade.com"
+		"Made by DesignPond": "http://designpond.ch"
 	}
 }

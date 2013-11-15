@@ -39,14 +39,14 @@ https://github.com/justinwalsh/daux.io/issues
 Copyright and License
 ---------------------
 Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
+modification, are permitted provided that the ing conditions are
 met:
 
 *   Redistributions of source code must retain the above copyright notice,
-    this list of conditions and the following disclaimer.
+    this list of conditions and the ing disclaimer.
 
 *   Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
+    notice, this list of conditions and the ing disclaimer in the
     documentation and/or other materials provided with the distribution.
 
 This software is provided by the copyright holders and contributors "as
@@ -239,15 +239,6 @@ if ($homepage && $homepage_url !== '/') {
                         <?php } ?>
                     </div>
                     <div class="span5">
-                        <div class="pull-right">
-                            <?php if (!empty($options['twitter'])) { ?>
-                                <?php foreach($options['twitter'] as $handle) { ?>
-                                    <div class="twitter">
-                                        <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>
-                                    </div>
-                                <?php } ?>
-                            <?php } ?>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -255,9 +246,7 @@ if ($homepage && $homepage_url !== '/') {
 
     <?php } else { ?>
         <!-- Docs -->
-        <?php if ($options['repo']) { ?>
-            <a href="https://github.com/<?php echo $options['repo']; ?>" target="_blank" id="github-ribbon"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-        <?php } ?>
+
         <div class="container-fluid fluid-height wrapper">
             <div class="navbar navbar-fixed-top">
                 <div class="navbar-inner">
@@ -287,13 +276,6 @@ if ($homepage && $homepage_url !== '/') {
                                 <!-- Links -->
                                 <?php foreach($options['links'] as $name => $url) { ?>
                                     <a href="<?php echo $url;?>" target="_blank"><?php echo $name;?></a><br>
-                                <?php } ?>
-                                <!-- Twitter -->
-                                <?php foreach($options['twitter'] as $handle) { ?>
-                                    <div class="twitter">
-                                                <hr/>
-                                        <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>
-                                    </div>
                                 <?php } ?>
                             </div>
                         <?php } ?>
