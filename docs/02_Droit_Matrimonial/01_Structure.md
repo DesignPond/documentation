@@ -1,1 +1,14 @@
-This is just another sample page to get you started.
+## Routes
+**Principales**
+
+        /                   => Accueil
+        
+**Avec filtre**
+     
+		jurisprudence/{id}  => Jurisprudence + Filtre
+		newsletter/{id}     => Newsletter    + Filtres
+		search              => Recherche 
+		
+
+
+

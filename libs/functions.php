@@ -36,7 +36,7 @@ function get_options() {
 		'image' => false,
 		'theme' => 'blue',
 		'date_modified' => true,
-		'float' => true,
+		'float' => false,
 		'repo' => false,
 		'twitter' => array(),
 		'links' => array(),
